@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdfdf;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 250px;
+    background-color: #fffbf2;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-box-shadow: 0px 0px 52px -31px rgba(0, 0, 0, 0.29);
+        -moz-box-shadow: 0px 0px 52px -31px rgba(0, 0, 0, 0.29);
+        box-shadow: 0px 0px 52px -31px rgba(0, 0, 0, 0.29);
+}
+img{
+    width: 60px;
+    border-radius: 20px;
+}
+.rowF{
+    margin: 20px;
+}
+.rowF h2{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.rowF p{
+    font-size: 14px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+}
+.rowF .four{
+    display: flex;
+    flex-direction: row;
+}
+.rowF .four img{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+.rowS{
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.organ{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.organ progress{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 250px;
+}
+.organ p{
+    display: flex;
+    margin-bottom: -35px;
+    font-size: 14px;
+}
+.rowS .i {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border: 1px black solid;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.rowS .i span{
+    font-size: 12px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+.rowS .follow{
+    text-align: right;
+    margin-top: 60px;
+}
+.rowS button{
+    width: 112px;
+    height: 37px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(13, 14, 61);
+    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+}
